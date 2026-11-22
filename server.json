@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.tony88pisa/jarvis-tools",
+  "description": "render_page on residential Chrome (passes anti-bot walls), deterministic EVM token_verdict (batch 50), multi-source research. 50 free calls/day, no wallet needed.",
+  "version": "1.0.0",
+  "title": "Jarvis Tools",
+  "repository": {
+    "url": "https://github.com/tony88pisa/jarvis-studio",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://jarvis-proxy.jarvis-studio.workers.dev/mcp",
+      "headers": [
+        {
+          "name": "X-API-Key",
+          "description": "Free API key — auto-provisioned by the stdio wrapper, or GET /mcp/key",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "jarvis-tools",
+      "version": "1.0.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "JARVIS_TOOLS_API_KEY",
+          "description": "Optional: pin a specific API key (auto-provisioned if absent)",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

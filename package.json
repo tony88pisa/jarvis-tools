@@ -1,0 +1,34 @@
+{
+  "name": "jarvis-tools",
+  "version": "1.0.1",
+  "description": "MCP server: render_page on residential Chrome, deterministic token_verdict, multi-source research. Free tier, no wallet needed.",
+  "type": "module",
+  "bin": {
+    "jarvis-tools": "bin/jarvis-tools.mjs"
+  },
+  "files": [
+    "bin/",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "agent-tools",
+    "web-scraping",
+    "token-security",
+    "x402"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tony88pisa/jarvis-tools"
+  },
+  "homepage": "https://jarvis-proxy.jarvis-studio.workers.dev/mcp"
+}
