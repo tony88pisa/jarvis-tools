@@ -1,6 +1,6 @@
 {
   "name": "jarvis-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server: render_page on residential Chrome, deterministic token_verdict, multi-source research. Free tier, no wallet needed.",
   "type": "module",
   "bin": {
@@ -30,5 +30,6 @@
     "type": "git",
     "url": "https://github.com/tony88pisa/jarvis-tools"
   },
-  "homepage": "https://jarvis-proxy.jarvis-studio.workers.dev/mcp"
+  "homepage": "https://jarvis-proxy.jarvis-studio.workers.dev/mcp",
+  "mcpName": "io.github.tony88pisa/jarvis-tools"
 }
