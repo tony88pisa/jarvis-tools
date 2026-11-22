@@ -1,6 +1,6 @@
 {
   "name": "jarvis-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server: render_page on residential Chrome, deterministic token_verdict, multi-source research. Free tier, no wallet needed.",
   "type": "module",
   "bin": {
